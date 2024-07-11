@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}  
+  
+header {
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+}
+header .container {
+    width: 100%;
+  }
+
+header .top-half {
+    background-color:#005bb5;
+    color: white;
+    padding: 20px; /* Reduced padding */
+    height: 30px; /* Reduced height */
+    width: 100%; /* Reduced width */
+  }
+
+header .top-half p {
+    margin: 0; /* Remove default margin */
+    line-height: 1.2; /* Adjust line height if needed */
+  }
+
+header .bottom-half {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 100px; /* Adjust height as needed */
+    width: 100%; /* Full width */
+  }
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ffffff;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+form input[type="text"], form input[type="number"], form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background: #0779e4;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #005bb5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    background: #fff;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+table th {
+    background: #0779e4;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+table tr:hover {
+    background: #f2f2f2;
+}
